@@ -1,6 +1,6 @@
 # ATCommander
 This is android Application which helps to send AT command to slave device (connected via OTG cable).  
-It supports to connect directly to modem device without unlock the phone.
+It supports to connect directly to modem device without unlock the phone.  
 
 ## Requirment
 Slave device must be Samsung Android device  
