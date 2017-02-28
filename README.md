@@ -1,4 +1,4 @@
-# ATCommander
+# ATCommander [![Build Status](https://travis-ci.org/trongvu/ATCommander.svg?branch=master)](https://travis-ci.org/trongvu/ATCommander)
 This is android Application which helps to send AT command to slave device (connected via OTG cable).  
 It supports to connect directly to modem device without unlock the phone.  
 
