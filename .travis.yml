@@ -1,0 +1,10 @@
+language: android
+jdk: oraclejdk8
+sudo: false
+
+android:
+  components:
+    - build-tools-25.0.2
+    - android-21
+        
+script: ./gradlew build

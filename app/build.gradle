@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "25.0.2"
+
+    lintOptions {
+        tasks.lint.enabled = false
+    }
+    defaultConfig {
+        applicationId "com.android.trongvu.atcommander"
+        minSdkVersion 18
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.github.felHR85:UsbSerial:4.5'
+}
