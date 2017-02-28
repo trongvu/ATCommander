@@ -4,7 +4,12 @@ sudo: false
 
 android:
   components:
+    - tools
     - build-tools-25.0.2
+    - platform-tools
+    - extra
+    # SDK Version to compile project
+    - android-25
     - android-21
         
 script: ./gradlew build
