@@ -18,4 +18,6 @@ We also can connect in case of Developer mode & USB debugging are not enable, bu
 | ------------- | ------------- |
 | ATZ  | Reset modem  |
 | ATE1  | Enable echo  |
-| ATE0  | Disable echo  ||
+| ATE0  | Disable echo  |
+| AT+GMM  | Get model name |
+| AT+GSN  | Get IMEI number |
