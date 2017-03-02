@@ -13,6 +13,10 @@ We also can connect in case of Developer mode & USB debugging are not enable, bu
 3. Confirm access permission, then wait
 4. Send test AT command below
 
+## Update for ROOTED master device  
+In case you have ROOTED master device, so this application can be run with any kind of slave device (Samung device, USB debugging is not required and it can works even slave device is locked).  
+Refer to [libusb](https://github.com/trongvu/libusb) for more details.  
+
 ## Test Command
 | AT Command | Description |
 | ------------- | ------------- |
