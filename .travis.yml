@@ -14,13 +14,13 @@ android:
         
 script: ./gradlew build
 
-deploy:
-  provider: releases
-  api_key:
-    secure: "edfe2a84922e51bd9f23abde335126454d1f9841"
-  file: "app/build/outputs/apk/app*release*.apk"
-  file_glob: "true"
-  skip_cleanup: true
-  on:
-    branch: master
-    repo: trongvu/ATCommander
+#deploy:
+#  provider: releases
+#  api_key:
+#    secure: "edfe2a84922e51bd9f23abde335126454d1f9841"
+#  file: "app/build/outputs/apk/app*release*.apk"
+#  file_glob: "true"
+#  skip_cleanup: true
+#  on:
+#    branch: master
+#    repo: trongvu/ATCommander
